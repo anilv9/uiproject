@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+         <!-- <img src="img/devjane.png" alt="logo"/> -->
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Anil Vemula</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Front-end dev
+        </p>
+        <img src="img/dev-jane-01.jpg" alt="picture">
+    </section>
+
+    <!-- My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">
+            What I do?
+        </h2>
+        <div class="services">
+            <div class="service">
+                <h3></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, commodi corrupti a cumque fugit facilis vero deserunt voluptas inventore tempora enim possimus explicabo dolore adipisci velit, odio incidunt iste distinctio.</p>
+            </div>
+            <div class="service">
+                <h3></h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quae minus, dolorum cupiditate saepe veritatis quod architecto corrupti tempora perspiciatis repellendus accusamus aperiam nesciunt consequuntur! Cupiditate ipsum mollitia dolor harum?</p>
+            </div>
+            <div class="service">
+                <h3></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, quia repudiandae. Aperiam cupiditate totam rem assumenda veniam corrupti doloribus modi, officia accusamus necessitatibus deserunt possimus! Corporis ipsum aspernatur natus labore.</p>
+            </div>
+        </div>
+        <a href="#work">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who am I ?</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+        <div class="about-me__body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae nostrum accusantium? Iste ex obcaecati temporibus tenetur possimus odit, nam reprehenderit mollitia. Blanditiis doloribus officiis provident dicta libero eius eligendi.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis iusto, nostrum eius itaque mollitia maxime, iste laboriosam perspiciatis quisquam veniam sed animi ut temporibus et excepturi laborum, inventore amet?
+            </p>
+            <img src="img/dev-jane-02.jpg" alt="">
+        </div>
+    </section>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic corrupti, iusto fugit similique nesciunt earum sit quisquam omnis! Dolor aliquid voluptatum amet nulla non blanditiis, omnis consequuntur magnam odit sed?</p>
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:hello@anil.dev" class="footer__link">hello@anil.dev</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="#">a</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="#">b</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="#">c</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="#">d</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
